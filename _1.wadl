@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <doc xml:lang="en" title="https://petstore.swagger.io"/>
+  <resources base="https://petstore.swagger.io">
+    <resource path="v2/swagger.json" id="Swagger.json">
+      <doc xml:lang="en" title="Swagger.json"/>
+      <method name="GET" id="Swagger.json 1">
+        <doc xml:lang="en" title="Swagger.json 1"/>
+        <request/>
+        <response status="200">
+          <representation mediaType="application/json"/>
+        </response>
+      </method>
+    </resource>
+  </resources>
+</application>
